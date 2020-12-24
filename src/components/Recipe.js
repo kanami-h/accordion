@@ -30,7 +30,7 @@ const Loading = () => {
 const NoRecipe = () => {
   return(
     <EmptyBox>
-      <p>データの取得に失敗しました</p>
+      <p>データの取得に失敗しました。</p>
     </EmptyBox>
   )
 }
