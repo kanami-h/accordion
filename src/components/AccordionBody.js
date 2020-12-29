@@ -19,13 +19,13 @@ const Wrapper = styled.div({
   return styles
 })
 
-const AccordionBody = ({ procedure, isOpen }) => {
+const AccordionBody = ({ procedure, isOpen }) => (
   <Wrapper isOpen={isOpen}>
     <p>
       {procedure.description}
     </p>
   </Wrapper>
-}
+)
   
 
 export default AccordionBody
