@@ -27,7 +27,6 @@ class RecipeContainer extends Component {
   render() {
     const { recipe, isLoading } = this.state;
     return <Recipe recipe={recipe} isLoading={isLoading} />
-    // return <div />
   }
 }
 
