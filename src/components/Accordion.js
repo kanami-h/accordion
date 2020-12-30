@@ -12,7 +12,7 @@ const Wrapper = styled.div({
 const Accordion = ({procedures}) => {
   // orderの値で手順の並び替えを行う
   const orderedProcedures  = procedures.sort((p1, p2) => {
-    return p1.order > p2.order
+    return p1.order - p2.order
   })
   // mapファンクションを利用して並び替えた手順を処理する
   const AccordionItems = orderedProcedures.map((procedure) => {
